@@ -4,7 +4,7 @@
 .packages
 .pub/
 
-.idea/
+# .idea/
 .vagrant/
 .sconsign.dblite
 .svn/
@@ -36,6 +36,6 @@ Icon?
 .tags*
 
 build/
-.android/
-.ios/
+# .android/
+# .ios/
 .flutter-plugins
