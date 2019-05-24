@@ -1,4 +1,6 @@
-include ':app'
+include ':app', 'flutter_app'
+project(":flutter_app").projectDir = file("../FlutterApp")
+
 setBinding(new Binding([gradle: this]))
 evaluate(new File(
         settingsDir.parentFile,
